@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiferet</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f9f9f7;
+      color: #1a1a2e;
+    }
+    header {
+      background: #1a3a6b;
+      color: white;
+      text-align: center;
+      padding: 64px 24px 48px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+    }
+    header p {
+      font-size: 1.15rem;
+      opacity: 0.85;
+      max-width: 480px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .features {
+      max-width: 680px;
+      margin: 56px auto;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 540px) {
+      .features { grid-template-columns: 1fr; }
+    }
+    .feature {
+      background: white;
+      border: 1px solid #e5e5e0;
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .feature .icon {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+    .feature h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1a3a6b;
+      margin-bottom: 6px;
+    }
+    .feature p {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.55;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      font-size: 0.82rem;
+      color: #999;
+      border-top: 1px solid #e5e5e0;
+    }
+    footer a { color: #1a3a6b; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tiferet</h1>
+    <p>La comunità Tiferet in un'unica app: orari di preghiera, calendario ebraico, eventi e approfondimenti sulla tradizione.</p>
+  </header>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon">🕍</div>
+      <h3>Orari di preghiera e Shabbat</h3>
+      <p>Shacharit, Minchà e Arvit ogni giorno. Entrata e uscita dello Shabbat con notifica del venerdì.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📅</div>
+      <h3>Calendario ebraico</h3>
+      <p>Festività, Rosh Chodesh e eventi della comunità integrati in un unico calendario.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📖</div>
+      <h3>Parashà della settimana</h3>
+      <p>Testo e approfondimento della Parashà settimanale direttamente in home.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🎉</div>
+      <h3>Eventi</h3>
+      <p>Serate di studio, cene e incontri. Conferma la tua partecipazione con un tap.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">💡</div>
+      <h3>Yeda — Approfondimenti</h3>
+      <p>Lezioni, informazioni sulla tradizione ebraica e commemorazioni della comunità.</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🔔</div>
+      <h3>Notifiche personalizzate</h3>
+      <p>Scegli quali aggiornamenti ricevere: eventi, lezioni, promemoria Shabbat.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Associazione Tiferet &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="support.html">Supporto</a></p>
+  </footer>
+
+</body>
+</html>
